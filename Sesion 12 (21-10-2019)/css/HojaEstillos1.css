@@ -1,0 +1,96 @@
+.estiloborde{
+    border-style: dotted;
+}
+
+.anchoborde{
+    border-width: 3px;
+}
+
+.colorborde{
+    border-color: red;
+}
+.dimensionescapa{
+    width: 60%;
+    height: 500px;
+    margin: auto;
+}
+.bordeizquierdo{
+    border-left-color: aqua ;
+    border-left-style: solid;
+    border-left-width: 4px;
+}
+
+.bordederecho {
+    border-right-color: brown;
+    border-right-style: dashed;
+    border-right-width: 5px;
+}
+
+.bordesuperior {
+    border-top-color: greenyellow;
+    border-top-style: double;
+    border-top-width: 8px;
+}
+.bordeinferior{
+    border-bottom-color: pink;
+    border-bottom-style: dotted;
+    border-bottom-width: 10px;
+}
+
+.bordeIzquierdoResumen{
+    border-left: solid blue 4px;
+}
+.bordeDerechoResumen {
+    border-right: dotted brown 5px;
+}
+.bordeSuperiorResumen{
+    border-top: double greenyellow 8px;
+}
+.bordeInferiorresumen{
+    border-bottom: dotted pink 10px;
+}
+
+.bordesRedondeados{
+    text-align: center;
+    border-radius: 50%; /*Cuanto mayor es el valor, mas sera el redondeo del borde*/
+    border:solid green 4px;
+}
+
+
+/*Demostracion de la propiedad box-sizing*/
+.capaIzquierda{
+    float: left;
+    width: 20%;
+    height: 300px;
+    border: solid green 2px;
+}
+
+.capaCentro{
+    float: left;
+    width: 60%;
+    height: 300px;
+    border: solid rgb(255, 0, 34) 2px;
+}
+
+.capaDerecha{
+    float: left;
+    width: 20%;
+    height: 300px;
+    border: solid blue 2px;
+}
+
+.contenedor{
+    width: 95%;
+    margin: auto;
+}
+.contenedorCapasBox{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.boxSizing{
+    /*La propiedad box-sizing: border-box;
+    incluye el ancho del borde en el ancho 
+    del elemento que tiene ese border*/
+    box-sizing: border-box;
+}
