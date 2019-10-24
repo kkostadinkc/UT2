@@ -1,3 +1,136 @@
-body{
-    background: rgb(57, 146, 197);
+.dimensionescapa{
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    border: solid 2px black;
+    text-align: justify;
+    margin-top: 30px;
+}
+.padding1{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+}
+.paddingGeneral{
+    padding: 50px;
+}
+
+.capaAlturaMinima{
+    width: 60%;
+    min-height: 500px; /*Altura minima. Si el contenedor necesita 
+                        crecer poruqe el contenido lo desborda,
+                         lo hará hasta que necesite*/
+    border: solid 2px black;
+    margin-top: 30px;
+    max-height: 1000px;
+    overflow: auto;
+}
+
+.capaConMarginLeft{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 15%;
+    min-height: 400px;
+    border: black solid 1px;
+}
+
+.capaIzquierdaOutline{
+    float: left;
+    outline: solid 4px black;
+    min-height: 400px;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.capaDerechaOutline{
+    float: left;
+    outline: solid 4px brown;
+    min-height: 400px;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.outLineConOffset{
+    width: 50%;
+    margin:auto;
+    min-height: 300px;
+    outline: dashed 2px aquamarine;
+    border: solid 2px rebeccapurple;
+    outline-offset: 10px;
+}
+
+.clearfix{
+    display: flow-root;
+}
+
+.alineacionDerecha{
+    border: solid 1px black;
+    text-align: right;    
+}
+
+.alineacionIzquierda{
+    border: solid 1px black;
+    text-align: left;
+}
+
+.alineacionCentrada{
+    border: solid 1px black;
+    text-align: center;
+}
+
+.alineacionJustificada{
+    border: solid 1px black;
+    text-align: justify;
+}
+
+.tachado{
+    text-decoration: line-through;
+}
+
+.subrallado{
+    text-decoration: underline;
+}
+
+.sobrerrayado{
+    text-decoration: overline;
+}
+
+.transformacionMin{
+    text-transform: lowercase;
+}
+.transformacionMay{
+    text-transform: uppercase;
+}
+.transformacionCap{
+    text-transform: capitalize;
+}
+
+.identacion{
+    text-indent: 40px;
+}
+.espaciadoEntreLetras{
+    letter-spacing: 10px;
+}
+.alturaDeLinea{
+    line-height: 1.6;/*Amplia un 60% la linea de la medida normal*/
+}
+.direccionDelTexto{
+    direction: rtl;
+}
+
+.espaciadoEntrePalabras{
+    word-spacing: 10px;
+}
+h4{
+    text-shadow: 1px 1px blue; /*Horizontal y vertical*/
+}
+
+@font-face{
+    font-family: familiaFuente1;
+    src: url(../fonds/Modak-Regular.ttf);
+}
+
+.pruebaFuentePersonalizada{
+    font-family: familiaFuente1;
 }
