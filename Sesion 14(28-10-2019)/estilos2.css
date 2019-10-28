@@ -1,0 +1,35 @@
+/*Mediante presudocodigo soy capaz de controlar todos los */
+a:link{
+    color: green;
+    text-decoration: none;/*Para que los enlaces no aprezcan subrayados*/
+}
+
+a:visited{
+    color: purple;
+    background-color: palegoldenrod;
+}
+a:active{
+    color: aquamarine;
+    background-color: blue;
+}
+
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+ol{
+    background-color: #ff9999;
+    padding: 20px;
+}
+
+/*Selector descendiente - Elementos li contenidos e*/
+ol li{
+    background-color: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ul li{
+    list-style-image: url("lista.jpg");
+}
