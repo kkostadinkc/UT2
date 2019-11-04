@@ -1,0 +1,51 @@
+ol.a{
+    list-style-position: outside;
+    border: 1px solid black;
+}
+ol{
+    list-style-position: inside;
+    border: 1px solid black;
+}
+
+
+ul.b{
+    list-style-position: outside;
+    border: 1px solid black;
+}
+
+
+ul{
+    list-style-position: inside;
+    border: 1px solid black;
+}
+
+/*Selector descendiente*/
+
+div p{
+    color: green;
+}
+
+/*Selector hijo*/
+span > a{
+    color: red;
+}
+
+/*Selector adyacente hermano*/
+/*El que esta justo debajo de su hermano
+    solo cogería el primero*/
+h4+h5{
+    color: aquamarine;
+}
+
+/*Selecto hermano general*/
+
+h5 ~ h6{
+    color: yellowgreen;
+}
+
+/*Pseudoclases*/
+
+a.resaltado:hover{
+    color: violet;
+}
+
