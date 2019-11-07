@@ -1,0 +1,39 @@
+.body{
+    margin: 0%;
+}
+
+.displayNone{
+    width: 75%;
+    min-height: 500px;
+    border: 1px solid black;
+    display: none;
+}
+
+.dplayInline{
+    display: inline;
+    color: red;
+    border: 1px solid black;
+}
+
+.pruebasImagen{
+    width: 90%; /* display: inlineblock no funciona con todos los elementos html5 */
+    border: 5px solid red;
+    box-sizing: border-box;
+    display: inline;
+}
+
+.displayInlineBlock{
+    width: 49%;
+    border: 2px solid paleturquoise;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: -10;
+}
+
+.capaOculta{
+    width: 80%;
+    min-height: 600px;
+    border: 1px solid black;
+    visibility: hidden;
+}
+
