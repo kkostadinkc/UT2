@@ -1,0 +1,40 @@
+.capaEstandar{
+    width: 20%;
+    min-height: 100px;
+    border: solid black 1px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.positionFixed{
+    position: fixed;
+    left: 50%;
+    top: 200px;
+    background-color: chocolate;
+    
+}
+
+.positionSticky{
+    position: sticky;   /**/
+    left: 5%;
+    top: 0px;
+    background-color: cyan;
+}
+
+.positionAbsolute{
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    border: solid 1px green;
+    font-weight: 44px;
+    background-color: yellow;
+}
+
+.positionAbsolute2{
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    border: solid 1px black;
+    font-weight: 44px;
+    background-color: red;
+}

@@ -1,0 +1,52 @@
+.capaEstandarPequeña{
+    width: 300px;
+    min-height: 200px;
+    border: solid 1px black;
+}
+
+.contenedor{
+    position: relative;
+    width: 90%;
+    min-height: 600px;
+    margin: auto;
+    border: solid 1px black;
+    box-sizing: border-box;
+}
+
+.positionAbsolute{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    background-color: chartreuse;
+
+}
+
+.capa1{
+    position: absolute;
+    background-color: red;
+    top: 40px;   
+    z-index: 100;
+}
+
+.capa2{
+    background-color: green;
+    position: absolute;
+    top: 80px;
+    left: 5%;
+    z-index: 200;
+}
+
+.propiedadOverflowHidden{
+    height: 300px; /*Tengo que forzar a una oltura de */
+    overflow: hidden;
+}
+
+.propiedadOverflowAuto{
+    height: 300px; /*Tengo que forzar a una oltura de */
+    overflow: auto;
+}
+
+.propiedadOverflowScroll{
+    height: 300px; /*Tengo que forzar a una oltura de */
+    overflow: scroll;
+}
