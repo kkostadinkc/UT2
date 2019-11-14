@@ -1,0 +1,98 @@
+.flotraDerecha{
+    float: right;
+}
+
+.capaCentrada{/*Centrado de elementos de bloque*/
+    width: 70%;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.centradoElementoInline{/*De forma cutre con text-aling*/
+    text-align: center;
+}
+
+.contenedor{
+    width: 80%;
+    min-height: 300px;
+    border: solid 1px black;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.alinearDerechaPosition{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.aliniarDerechaFloat{
+    float: right;
+    margin-top: 40px;
+}
+ol{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    list-style-type: none;
+}
+ol li{
+    padding: 30px 10px;
+    border: solid 1px black;
+    display: inline;
+
+}
+
+.centradoVerticalHorizontal{
+    height: 200px;
+    line-height: 200px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.centradoVerticalHorizontal p{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contenedorTransform{
+    height: 200px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.contenedorTransform p{
+    margin: 0%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   /* -ms-transform: translate(-50%,-5%);/*para internet explorer*/
+}
+
+.opacidad{
+    opacity: 0.5;
+    filter: alpha(opacity=50);/*Para IE8 y antreriores*/
+}
+
+.contenedorImagen{
+    position: relative;
+}
+
+.textoCentrado{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+.opacidadImagen{
+    opacity: 0.5;
+    filter: alpha(opacity=50);/*Para IE8 y antreriores*/
+    width: 100%;
+}
